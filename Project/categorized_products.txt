@@ -1,0 +1,12 @@
+Excellent:
+Table (Furniture) - 95
+Tablet (Electronics) - 90
+TV (Electronics) - 85
+
+Average:
+Boots (Clothing) - 70
+Sofa (Furniture) - 65
+
+Poor:
+T-Shirt (Clothing) - 40
+Kettle (Electronics) - 40

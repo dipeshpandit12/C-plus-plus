@@ -1,0 +1,7 @@
+Table Furniture 95
+Boots Clothing 70
+Tablet Electronics 90
+Sofa Furniture 65
+T-Shirt Clothing 40
+TV Electronics 85
+Kettle Electronics 40

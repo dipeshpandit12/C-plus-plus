@@ -20,6 +20,7 @@ int main()
     input_file >> BID >> PName >> Week_1 >> Week_2 >> Week_3;
     float average_server = (Week_1 + Week_2 + Week_3)/3.0;
 
+    // output_file << setfill(" ") << setw(5) << left;
     output_file << "BID     PName      Average" << endl;
     output_file  << setw(6) << 15069 << setw(10) << "Desktop" << setw(10) << fixed << setprecision(2) << average_desktop << endl;
     output_file  << setw(6) << 13289 << setw(10) << "Laptop" << setw(10) << fixed << setprecision(2) << average_laptop << endl;
