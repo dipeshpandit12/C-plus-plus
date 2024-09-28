@@ -11,7 +11,6 @@ int main(){
     cout << area_of_circle(5.5);
     cout << some_func();
     return 0;
-
 }
 
 double area_of_circle (double radius){
