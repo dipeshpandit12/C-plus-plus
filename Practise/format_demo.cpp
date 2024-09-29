@@ -1,14 +1,17 @@
 #include <iostream>
 #include <iomanip>
-#include <ofstream>
+#include <fstream>  // Correct header for file output
 using namespace std;
 
 int main() 
 {
-   ofstream fout "format.txt";
-   if(!fout){
+   // Correct syntax for opening a file
+   ofstream fout("format.txt"); 
+   if (!fout) {
       cout << "Unable to open file";
+      return 1;  // Exit if unable to open the file
    }
+   
    // Dog age in human years (dogyears.com)   
    fout << setw(10) << left  << "Dog age" << "|";
    fout << setw(12) << right << "Human age" << endl;
@@ -31,6 +34,6 @@ int main()
    // Produce long line
    fout << setfill('-') << setw(23) << "" << endl;
    
+   fout.close();  // Always close the file after writing
    return 0;
 }
-

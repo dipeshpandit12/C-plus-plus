@@ -1,0 +1,7 @@
+Dog age   |   Human age
+-----------------------
+2 months  |   14 months
+6 months  |     5 years
+8 months  |     9 years
+1 year    |    15 years
+-----------------------
